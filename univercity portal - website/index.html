@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="fa fa-times" viewBox="0 0 16 16" onclick="hidemenu()">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                  </svg>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+           
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="fa" viewBox="0 0 16 16"  onclick="showmenu()">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making website is now one of the easiest thing in the world.You just need to learn HTML,CSS,<br>Javascript and you are good to go</p>
+            <a href="about.html" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+<!--------- COURSE ------->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Explore a wide range of academic programs designed to empower and inspire.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Our intermediate programs offer a strong foundation in core subjects, preparing students for advanced studies. With a focus on critical thinking, practical skills, and academic growth, these courses bridge the gap between school and higher education.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>We offer diverse undergraduate degree programs across various disciplines, including arts, sciences, engineering, and business. Our curriculum combines academic rigor with hands-on experience, ensuring students are well-prepared for their future careers.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Our postgraduate programs are designed for students seeking advanced expertise in their chosen fields. With a strong emphasis on research, innovation, and professional development, our graduate degrees help shape future leaders and experts.</p>
+        </div>
+    </div>
+</section>
+
+
+<!--------campus--------->
+
+<div class="container" id="container">
+    <h1 class="text-center">Our Global Campus</h1>
+    <p class="text-center">Explore our international campuses, where students from around the world come together to learn, grow, and succeed.</p>
+
+    <!-- First Row of 3 Images -->
+    <div class="row">
+        <div class="col-12 col-md-4 image-container" id="campus-col">
+            <img src="london.png" class="img-fluid" alt="London">
+            <div class="text-overlay" id="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 image-container" id="campus-col">
+            <img src="newyork.png" class="img-fluid" alt="New York">
+            <div class="text-overlay" id="layer">
+                <h3>NEW YORK</h3>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 image-container" id="campus-col">
+            <img src="washington.png" class="img-fluid" alt="Washington">
+            <div class="text-overlay" id="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Row of 3 Images -->
+    <div class="row mt-3">
+        <div class="col-12 col-md-4 image-container" id="campus-col">
+            <img src="canada.jpg" class="img-fluid" alt="Canada">
+            <div class="text-overlay" id="layer">
+                <h3>CANADA</h3>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 image-container" id="campus-col">
+            <img src="chennai.jpg" class="img-fluid" alt="India">
+            <div class="text-overlay" id="layer">
+                <h3>INDIA</h3>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 image-container" id="campus-col">
+            <img src="england.jpg" class="img-fluid" alt="England">
+            <div class="text-overlay" id="layer">
+                <h3>ENGLAND</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+<!------facilities------->!
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>We provide state-of-the-art facilities to support our students in achieving academic excellence and enhancing their overall university experience.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png" alt="University Library">
+            <h3>World-Class Library</h3>
+            <p>Our library is equipped with a vast collection of physical and digital resources, offering students access to cutting-edge research, journals, books, and study spaces for collaborative and independent learning.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="basketball.png" alt="University Playground">
+            <h3>Largest Playground</h3>
+            <p>We boast the largest playground on campus, providing students with ample space for sports and recreational activities, fostering a healthy and active lifestyle alongside academic pursuits.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="cafeteria.png" alt="University Cafeteria">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Our on-campus cafeterias serve a variety of delicious and nutritious meals, ensuring that students can enjoy a balanced diet with diverse culinary options throughout the day.</p>
+        </div>
+    </div>
+</section>
+
+
+<!---------testimonials------>
+
+<section class="testimonials">
+    <h1>What Our Students Say</h1>
+    <p>Our students have transformed their careers and reached new heights with the education and support they received at our university.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="user1.jpg" alt="">
+            <div>
+                <p>My experience at the university has been truly life-changing. The faculty was highly supportive, and the curriculum was designed to prepare us for real-world challenges. I feel ready and confident for my professional journey.</p>
+                <h3>Christine Berkley</h3>
+                <span class="filled-star">&#9733;</span>
+                <span class="filled-star">&#9733;</span>
+                <span class="filled-star">&#9733;</span>
+                <span class="filled-star">&#9733;</span>
+                <span class="hollow-star">&#9734;</span>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="user2.jpg" alt="">
+            <div>
+                <p>Thanks to the personalized attention and cutting-edge resources at the university, I was able to enhance my skills and secure my dream job shortly after graduation. I couldn’t be more grateful for the experience!</p>
+                <h3>David Byer</h3>
+                <span class="filled-star">&#9733;</span>
+                <span class="filled-star">&#9733;</span>
+                <span class="filled-star">&#9733;</span>
+                <span class="filled-star">&#9733;</span>
+                <span class="hollow-star">&#9734;</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!------call to action----->
+
+<section class="cta">
+    <h1>Enroll for our various online courses <br>Anywhere from the World</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!------footer----->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Our university is dedicated to academic excellence, fostering innovation, and creating a vibrant, inclusive learning community. <br>We strive to empower students, faculty, and researchers with the tools and resources they need to succeed in a global environment.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/YourUniversityPage" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/YourUniversityPage" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/YourUniversityPage" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/school/YourUniversityPage" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p>Developed with <i class="fa-solid fa-heart"></i> by Mohammed Ismail</p>
+</section>
+
+<!-----javascript menu----->
+    <script>
+        var navlinks=document.getElementById("navlinks")
+
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
